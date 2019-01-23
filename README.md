@@ -1,12 +1,12 @@
-Some Readme text and stuff
+#ReadMe
+Readme Text
 
 #Software Engineering Methods
 
-[![Build Status](https://travis-ci.org/iainmclachlan/sem.svg?branch=master)](https://travis-ci.org/iainmclachlan/sem)
-
-[![LICENSE](https://img.shields.io/github/license/iainmclachlan/sem.svg?style=flat-square)](https://github.com/<github-username>/sem/blob/master/LICENSE)
-
-[![Releases](https://img.shields.io/github/release/iainmclachlan/sem/all.svg?style=flat-square)](https://github.com/<github-username>/sem/releases)
+- Master Build Status [![Build Status](https://travis-ci.org/iainmclachlan/sem.svg?branch=master)](https://travis-ci.org/iainmclachlan/sem)
+- Develop Build Status [![Build Status](https://travis-ci.org/iainmclachlan/sem.svg?branch=develop)](https://travis-ci.org/iainmclachlan/sem)
+- Licence [![LICENSE](https://img.shields.io/github/license/iainmclachlan/sem.svg?style=flat-square)](https://github.com/iainmclachlan/sem/blob/master/LICENSE)
+- Release [![Releases](https://img.shields.io/github/release/iainmclachlan/sem/all.svg?style=flat-square)](https://github.com/iainmclachlan/sem/releases)
 
 
 
