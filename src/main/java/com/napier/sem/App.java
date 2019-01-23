@@ -13,7 +13,7 @@ public class App
     public  static void main(String[] args)
     {
         //Connecting to MongoDB on Local System
-        MongoClient mongoClient = new MongoClient("localhost", 27000);
+        MongoClient mongoClient = new MongoClient("mongo-dbserver");
 
         //Gets Database - Will Create when used
         MongoDatabase database = mongoClient.getDatabase("mydb");
