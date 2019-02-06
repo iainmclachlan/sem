@@ -42,7 +42,7 @@ public class App {
                 //Wait for DB to Start
                 Thread.sleep(30000);
                 //Connect To database
-                con = DriverManager.getConnection("jdbc:mysql://db:3306/employees?userSSL=false", "root", "example");
+                con = DriverManager.getConnection("jdbc:mysql://db:3306/employees?useSSL=false", "root", "example");
                 System.out.println("Connection Successful");
                 break;
             } catch (SQLException sqle) {
