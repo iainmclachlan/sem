@@ -9,6 +9,13 @@ public class App {
         //Connect To DB
         a.connect();
 
+        //Get Employee
+        Employee emp = a.getEmployee(255530);
+
+        //Display Results
+        a.displayEmployee(emp);
+
+
         //Disconnect from DB
         a.disconnect();
 
@@ -58,7 +65,8 @@ public class App {
         }
     }
 
-    public Employee getEmployee(int ID) {
+    public Employee getEmployee(int ID)
+    {
         try {
             //Create a SQL Statement
             Statement stmt = con.createStatement();
@@ -85,6 +93,21 @@ public class App {
             System.out.println(e.getMessage());
             System.out.println("Failed to get Employee Details");
             return null;
+        }
+    }
+
+    public  void displayEmployee(Employee emp)
+    {
+        if(emp != null )
+        {
+            System.out.println(
+                    emp.emp_no + " "
+                    + emp.first_name + " "
+                    + emp.last_name + "\n"
+                    + emp.title + "\n"
+                    + "Salary: " + emp.salary + "\n"
+                    + emp.dept_name + "\n"
+                    + "Manager: " + emp.manager + "\n");
         }
     }
 }
