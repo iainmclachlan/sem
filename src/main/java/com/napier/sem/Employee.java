@@ -1,8 +1,5 @@
 package com.napier.sem;
 
-import java.sql.ResultSet;
-import java.sql.Statement;
-
 /**
  * Represents a Employee
  */
@@ -41,6 +38,6 @@ public class Employee
     /**
      * Employee's manager
      */
-    public String manager;
+    public Employee manager;
 
 }
